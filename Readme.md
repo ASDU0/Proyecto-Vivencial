@@ -1,63 +1,38 @@
-# Proyecto vivencial en React
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<hr>
-Proyecto vivencial <br>
-├── public/<br>
-│ ├── index.html<br>
-│ ├── favicon.ico<br>
-│ ├── manifest.json<br>
-│ └── ...<br>
-├── src/<br>
-│ ├── assets/<br>
-│ │ ├── images/<br>
-│ │ ├── styles/<br>
-│ │ └── ...<br>
-│ ├── components/<br>
-│ │ ├── Button/<br>
-│ │ │ ├── Button.js<br>
-│ │ │ ├── Button.test.js<br>
-│ │ │ ├── Button.module.css<br>
-│ │ │ └── index.js<br>
-│ │ ├── Input/<br>
-│ │ │ ├── Input.js<br>
-│ │ │ ├── Input.test.js<br>
-│ │ │ ├── Input.module.css<br>
-│ │ │ └── index.js<br>
-│ │ └── ...<br>
-│ ├── containers/<br>
-│ │ ├── Home/<br>
-│ │ │ ├── Home.js<br>
-│ │ │ ├── Home.test.js<br>
-│ │ │ ├── Home.module.css<br>
-│ │ │ └── index.js<br>
-│ │ ├── About/<br>
-│ │ │ ├── About.js<br>
-│ │ │ ├── About.test.js<br>
-│ │ │ ├── About.module.css<br>
-│ │ │ └── index.js<br>
-│ │ └── ...<br>
-│ ├── services/<br>
-│ │ ├── api.js<br>
-│ │ └── ...<br>
-│ ├── utils/<br>
-│ │ ├── constants.js<br>
-│ │ ├── helpers.js<br>
-│ │ └── ...<br>
-│ ├── App.js<br>
-│ ├── index.js<br>
-│ ├── index.css<br>
-│ └── ...<br>
-├── tests/<br>
-│ ├── unit/<br>
-│ ├── integration/<br>
-│ ├── e2e/<br>
-│ └── ...<br>
-├── config/<br>
-│ ├── webpack.config.js<br>
-│ ├── jest.config.js<br>
-│ └── ...<br>
-├── build/<br>
-├── node_modules/<br>
-├── package.json<br>
-└── README.md<br>
-<hr>
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
